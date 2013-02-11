@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'DalleRegular';
+    src: url('http://decoratedplaylists.com/fonts/dalle_typeface-webfont.eot');
+    src: url('http://decoratedplaylists.com/fonts/dalle_typeface-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://decoratedplaylists.com/fonts/dalle_typeface-webfont.woff') format('woff'),
+         url('http://decoratedplaylists.com/fonts/dalle_typeface-webfont.ttf') format('truetype'),
+         url('http://decoratedplaylists.com/fonts/dalle_typeface-webfont.svg#DalleRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OstrichSansRoundedMedium';
+    src: url('fonts/ostrich-rounded-webfont.eot');
+    src: url('fonts/ostrich-rounded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ostrich-rounded-webfont.woff') format('woff'),
+         url('fonts/ostrich-rounded-webfont.ttf') format('truetype'),
+         url('fonts/ostrich-rounded-webfont.svg#OstrichSansRoundedMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background:#39b9b2 url(http://decoratedplaylists.com/mashups/images/bg.jpg) repeat;
+  width:960px;
+  min-height:1100px;
+  font-size:1.5em;
+  font-family:Courier new, Courier, monospace;
+  color:#;
+  margin:0 auto;
+  overflow:auto;
+  -webkit-text-size-adjust:100%;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  padding-top: 10%;
+  float: left;
+  background: url(http://decoratedplaylists.com/mashups/images/circles.jpg) no-repeat 0px 150px;
+}
+
+audio {
+  display: none;
+}
+
+
+h2 {
+  width: 100%;
+  color: #fff;
+  float: left;
+  text-align: center;
+  font-family: OstrichSansRoundedMedium, Helvetica Neue, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+  padding: 40px 0 50px 0;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+}
+
+
+.tableBody {
+  width: 100%;
+  color: #fff;
+  float: left;
+  text-align: center;
+  font-family: OstrichSansRoundedMedium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+  padding: 40px 0 50px 0;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+}
+
+.PlaylistView {
+  color: #fff;
+  float: right;
+  text-align: right;
+  font-family: OstrichSansRoundedMedium, Helvetica Neue, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+  padding: 40px 0 50px 0;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  text-align: left;
+}
+
+.controls {
+  display: inline;
+}
+button {
+  width: 60px;
+  height: 60px;
+  display: block;
+  cursor: pointer;
+  margin: 10px 20px 0 0;
+  float: right;
+  clear: none;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  border: none;
+  background: white url(http://decoratedplaylists.com/mashups/images/circles.jpg) -50px -70px;
+  color: black;
+  font-family: OstrichSansRoundedMedium, Helvetica Neue, Arial, sans-serif;
+  font-size: .5em;
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+}
+
+button:hover {
+   background:#000 url(http://decoratedplaylists.com/mashups/images/circles.jpg) -420px -70px;
+   color:#fff;
+   }
